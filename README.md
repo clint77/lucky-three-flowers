@@ -1,4 +1,4 @@
-# Coding Forward Blog with Ruby, RSpec and Rails
+# Lucky Three Flowers with Ruby, Sinatra, RSpec and Capybara
 
 [![Code Climate](https://codeclimate.com/github/clint77/lucky-three-flowers/badges/gpa.svg)](https://codeclimate.com/github/clint77/lucky-three-flowers)   [![Test Coverage](https://codeclimate.com/github/clint77/lucky-three-flowers/coverage.svg)](https://codeclimate.com/github/clint77/lucky-three-flowers/coverage)
 
@@ -10,7 +10,7 @@ Ruby version ruby 2.4.0p0, RSpec version 3.6 and Sinatra version 2.0.0s
 
 ### Thoughts
 
-This will also serve as my learning blog or notes of everything I am trying to learn and be better at as a junior developer. Right now I am interested in doing a lot of ruby and rails app. I will also include here a step by step guide on how I did this small project and all the difficulties I had encountered.
+I am trying to learn and be better as a junior developer. Right now I am interested in doing a lot of projects using ruby. I will also include here a step by step guide on how I did this small project and all the difficulties I had encountered.
 
 ### Work in Progress
 
