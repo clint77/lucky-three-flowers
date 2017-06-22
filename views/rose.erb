@@ -1,9 +1,15 @@
-Welcome <%= @customer_name %>!
+<div class="row">
+  <div class="col-xs-12 text-center">
 
-<p><%= message %></p>
-<form action="/rose" method="post">
-  <label>Number of Roses R12
-    <input type="number" name="rose_quantity" required >
-  </label>
-  <button type="submit">Submit</button>
-</form>
+    Welcome <%= @customer_name %>!
+
+    <p><%= message %></p>
+    <form action="/rose" method="post">
+      <label>Number of Roses R12
+        <input type="number" name="rose_quantity" placeholder="Enter number of roses" required autofocus>
+      </label>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+    
+  </div>
+</div>

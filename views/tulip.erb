@@ -1,7 +1,13 @@
-<p><%= message %></p>
-<form action="/tulip" method="post">
-  <label>Tulips Product Code: T58
-    <input type="number" name="tulip_quantity">
-  </label>
-  <input type="submit" value="Submit">
-</form>
+<div class="row">
+  <div class="col-xs-12 text-center">
+
+    <p><%= message %></p>
+    <form action="/tulip" method="post">
+      <label>Tulips Product Code: T58
+        <input type="number" name="tulip_quantity" placeholder="Enter number of tulips" required autofocus>
+      </label>
+      <input class="btn btn-primary" type="submit" value="Submit" >
+    </form>
+
+  </div>
+</div>

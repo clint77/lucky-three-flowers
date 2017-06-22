@@ -1,0 +1,15 @@
+body {
+  margin: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+textarea, input, button { 
+  outline: none; 
+}
+
+.orders {
+  margin-left: 50px;
+}

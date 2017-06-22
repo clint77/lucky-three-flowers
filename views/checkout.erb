@@ -1,47 +1,53 @@
-<h2>Your order: </h2>
+<div class="row">
+  <div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-4">
 
-<h3>
-  <ul>
-    <li>
-      <%= @rose.quantity %> <%= @rose.product_code %> $<%= @rose.total_price_roses %>
-      <ul>
-        <li>
-          <%= @rose.bundle_10 %> x 10 $<%= @rose.price_10 %>
-        </li>
-        <li>
-          <%= @rose.bundle_5 %> x 5 $<%= @rose.price_5 %>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <%= @lily.quantity %> <%= @lily.product_code %> $<%= @lily.total_price_lilies %>
-      <ul>
-        <li>
-          <%= @lily.bundle_9 %> x 9 $<%= @lily.price_9 %>
-        </li>
-        <li>
-          <%= @lily.bundle_6 %> x 6 $<%= @lily.price_6 %>
-        </li>
-        <li>
-          <%= @lily.bundle_3 %> x 3 $<%= @lily.price_3 %>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <%= @tulip.quantity %> <%= @tulip.product_code %> $<%= @tulip.total_price_tulips %>
-      <ul>
-        <li>
-          <%= @tulip.bundle_9 %> x 9 $<%= @tulip.price_9 %>
-        </li>
-        <li>
-          <%= @tulip.bundle_5 %> x 5 $<%= @tulip.price_5 %>
-        </li>
-        <li>
-          <%= @tulip.bundle_3 %> x 3 $<%= @tulip.price_3 %>
-        </li>
-      </ul>
-    </li>
-  </ul>
+    <h4>Your order: </h4>
 
-  <h3>Total: $<%= @cart.get_total(@rose.total_price_roses, @lily.total_price_lilies, @tulip.total_price_tulips) %></h3>
-</h3>  
+    <div class="orders">
+      <ul>
+        <li>
+          <%= @rose.quantity %> <%= @rose.product_code %> $<%= @rose.total_price_roses %>
+          <ul>
+            <li>
+              <%= @rose.bundle_10 %> x 10 $<%= @rose.price_10 %>
+            </li>
+            <li>
+              <%= @rose.bundle_5 %> x 5 $<%= @rose.price_5 %>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <%= @lily.quantity %> <%= @lily.product_code %> $<%= @lily.total_price_lilies %>
+          <ul>
+            <li>
+              <%= @lily.bundle_9 %> x 9 $<%= @lily.price_9 %>
+            </li>
+            <li>
+              <%= @lily.bundle_6 %> x 6 $<%= @lily.price_6 %>
+            </li>
+            <li>
+              <%= @lily.bundle_3 %> x 3 $<%= @lily.price_3 %>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <%= @tulip.quantity %> <%= @tulip.product_code %> $<%= @tulip.total_price_tulips %>
+          <ul>
+            <li>
+              <%= @tulip.bundle_9 %> x 9 $<%= @tulip.price_9 %>
+            </li>
+            <li>
+              <%= @tulip.bundle_5 %> x 5 $<%= @tulip.price_5 %>
+            </li>
+            <li>
+              <%= @tulip.bundle_3 %> x 3 $<%= @tulip.price_3 %>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <h4>Total: $<%= @cart.get_total(@rose.total_price_roses, @lily.total_price_lilies, @tulip.total_price_tulips) %></h4>
+    </div>  
+
+  </div>
+</div>

@@ -1,9 +1,12 @@
-<h1>Hello from Flowers!</h1>
-<h2>Enter your name to place an order</h2>
-<form action="/names" method="post" >
-  <label for="customer_name">
-    Please enter your name
-    <input type="text" name="customer_name" required>
-  </label>
-  <input type="submit" value="Submit" >
-</form>
+<div class="row">
+  <div class="col-xs-12 text-center">
+    <h5>Enter your name to place an order</h5>
+    <form action="/names" method="post" >
+      <label for="customer_name">
+        Please enter your name
+        <input type="text" name="customer_name" placeholder="Your name" required autofocus>
+      </label>
+      <input class="btn btn-primary" type="submit" value="Submit" >
+    </form> 
+  </div>
+</div>
