@@ -3,7 +3,7 @@
 <h3>
   <ul>
     <li>
-      <%= @rose.quantity %> <%= @rose.product_code %>
+      <%= @rose.quantity %> <%= @rose.product_code %> $<%= @rose.total_price_roses %>
       <ul>
         <li>
           <%= @rose.bundle_10 %> x 10 $<%= @rose.price_10 %>
@@ -14,7 +14,7 @@
       </ul>
     </li>
     <li>
-      <%= @lily.quantity %> <%= @lily.product_code %>
+      <%= @lily.quantity %> <%= @lily.product_code %> $<%= @lily.total_price_lilies %>
       <ul>
         <li>
           <%= @lily.bundle_9 %> x 9 $<%= @lily.price_9 %>
@@ -28,7 +28,7 @@
       </ul>
     </li>
     <li>
-      <%= @tulip.quantity %> <%= @tulip.product_code %>
+      <%= @tulip.quantity %> <%= @tulip.product_code %> $<%= @tulip.total_price_tulips %>
       <ul>
         <li>
           <%= @tulip.bundle_9 %> x 9 $<%= @tulip.price_9 %>
